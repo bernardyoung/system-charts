@@ -39,7 +39,7 @@ service:
       targetPort: metric
 
 cluster:
-  dockerRoot: /var/lib/docker
+  dockerRoot: /var/vcap/store/docker/docker
 
 service:
   ports:
